@@ -1,0 +1,83 @@
+/* Base page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e2e8f0; /* Soft modern gray */
+  color: #1e293b;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+/* Main wrapper to make it look like a floating card */
+.portfolio-container {
+  width: 100%;
+  max-width: 450px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Keeps the gradient header inside rounded corners */
+}
+
+/* Gradient Header */
+.profile-header {
+  background: linear-gradient(135deg, #4f46e5, #3b82f6); /* Indigo to Blue */
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.profile-header h1 {
+  margin: 0 0 8px 0;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+.profile-header p {
+  margin: 0;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* Main Content Area */
+.profile-body {
+  padding: 25px;
+  line-height: 1.6;
+}
+
+.profile-body h2 {
+  margin-top: 0;
+  color: #334155;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 8px;
+}
+
+.profile-body h3 {
+  font-size: 16px;
+  color: #475569;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.skills-list li {
+  margin-bottom: 6px;
+}
+
+/* Dark Footer */
+.profile-footer {
+  background-color: #0f172a; /* Deep navy */
+  color: #94a3b8;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.profile-footer p {
+  margin: 4px 0;
+}
