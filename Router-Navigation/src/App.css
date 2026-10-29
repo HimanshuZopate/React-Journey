@@ -1,0 +1,17 @@
+.tabs{
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.tabs a{
+  text-decoration: none;
+  color: #555;
+  padding: 8px;
+}
+
+.tabs a.active{
+  color: blue;
+  border-bottom: 2px solid blue;
+}

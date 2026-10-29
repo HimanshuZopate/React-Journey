@@ -1,0 +1,21 @@
+.app{
+  min-height: 100vh;
+  padding: 30px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.light{
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.dark{
+  background-color: #222222;
+   color:#ffffff;
+}
+
+button{
+  padding: 10px 16px;
+  cursor: pointer;
+}
